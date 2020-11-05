@@ -5,7 +5,7 @@ function multiplesOf3Or5(number) {
       accum += i;
     }
   }
-  console.log(accum);
+  return accum;
 }
 
-multiplesOf3Or5(1000);
+console.log(multiplesOf3Or5(1000));

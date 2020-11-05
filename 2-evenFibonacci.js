@@ -11,6 +11,6 @@ function evenFibonacci(num) {
             sum += num;
         }
     }
-    console.log(sum);
+    return sum
 }
-evenFibonacci(34);
+console.log(evenFibonacci(34));
