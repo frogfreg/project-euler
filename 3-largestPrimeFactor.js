@@ -16,7 +16,7 @@ function isPrime(number) {
 //this works but is suuuper slow and ineffective
 function largestPrimeFactor(num) {
     const primesArray = [];
-    let currMax = 2;
+    // let currMax = 2;
     for (let i = 0; i <= num; i++) {
         if (isPrime(i)) {
             primesArray.push(i);
