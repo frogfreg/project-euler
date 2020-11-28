@@ -6,8 +6,7 @@ function largestPalindromeProduct(n) {
     for (let j = start; j >= 0; j--) {
       const product = i * j;
       const stringProduct = `${product}`;
-      const reverseStringProduct = [...stringProduct].reverse();
-      if ([...stringProduct].join("") === reverseStringProduct.join("")) {
+      if (stringProduct === [...stringProduct].reverse().join("")) {
         palindromeArr.push(product);
       }
     }
